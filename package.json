@@ -1,0 +1,29 @@
+{
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": "request header parser microservice (IP Address, language and operating system)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "heldderarbeit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heldderarbeit/whoami.git"
+  },
+  "keywords": [
+    "javascript",
+    "Express",
+    "Node"
+  ],
+  "bugs": {
+    "url": "https://github.com/heldderarbeit/whoami/issues"
+  },
+  "homepage": "https://github.com/heldderarbeit/whoami#readme"
+}
