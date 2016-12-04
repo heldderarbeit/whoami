@@ -1,6 +1,6 @@
 'use strict';
 
-function requestHeaderHandler () {
+function RequestHeaderHandler () {
 	
 	this.parseRequestHeader = function (req, res) {
 	    
@@ -16,4 +16,4 @@ function requestHeaderHandler () {
 	};
 }
 
-module.exports = requestHeaderHandler;
+module.exports = RequestHeaderHandler;
